@@ -10,8 +10,9 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   return array
 }
 
-function addElementToEndOfArray() {
-  chocolateBars.push = ["new candy3"]
+function addElementToEndOfArray(array, element) {
+  bars = [...array, element]
+  return bars
 }
 
 function destructivelyAddElementToEndOfArray() {
